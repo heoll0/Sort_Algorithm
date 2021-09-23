@@ -23,7 +23,7 @@ void quick_sort(vector<int> &nums, int l, int r) {
 }
 
 int main(){
-    vector<int> nums = {5, 3, 7, 3, 4, 6};
+    vector<int> nums = {1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0};
     quick_sort(nums, 0, nums.size());
     for(int i = 0; i < nums.size(); ++i){
         cout << nums[i] << endl;
